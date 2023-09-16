@@ -5,9 +5,9 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
+let userID = 'fc05bc7e-6b96-42ed-920f-ac4a24528330';
 
-const proxyIPs = ['140.238.10.178', '193.122.103.122', 'icook.hk', 'sp.kjkkk.link', '104.16.60.79', '146.56.152.36', '146.56.154.121', '132.145.87.158', '146.56.176.255', 'cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org', '158.178.246.52', '152.69.221.98', '158.178.229.189', '158.178.229.68'];
+const proxyIPs = ['129.154.215.81','140.238.10.178', '140.238.23.30','193.122.114.70','193.122.103.122', 'icook.hk', 'sp.kjkkk.link', '104.16.60.79', '146.56.152.36', '146.56.154.121', '132.145.87.158', '146.56.176.255', 'b.xsvip999.eu.org','d.xsvip999.eu.org','x.xsvip999.eu.org','cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org', '158.178.246.52', '152.69.221.98', '158.178.229.189', '158.178.229.68'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
